@@ -1,0 +1,36 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: black;
+  color: #00ff00;
+}
+a {
+  font-family: "Courier New", monospace;
+  background-color: black;
+  color: #00ff00;
+  text-decoration: none;
+}
+#passwordBox{
+  background-color:black;
+  border-color:#00ff00
+}  
+header {
+  border-bottom: 1px solid #00ff00;
+  text-align: center;
+}
+button {
+  background-color: black;
+  border-color: #00ff00;
+}
+#alert {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border: 2px solid red;
+  margin: 20px;
+}
+input.passwordBox {
+  color: #00ff00;
+}
+input#passwordBox {
+  color: #00ff00;
+}
