@@ -95,7 +95,7 @@ button,select {
 	text-transform: none;
 }
 button,html input[type="button"], input[type="reset"],input[type="submit"] {
-	-webkit-appearance: button;
+	-webkitappearance: button;
 	cursor: pointer;
 }
 button[disabled],html input[disabled] {
@@ -116,7 +116,7 @@ input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-ou
 	height: auto;
 }
 input[type="search"] {
-	-webkit-appearance: textfield;
+	-webkitappearance: textfield;
 	box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {
@@ -313,7 +313,7 @@ a:hover {
 	text-decoration: underline;
 }
 .wrapAll {
-	width: 100%.
+	width: 100%
 }
 .sidebar {
 	float: left;
@@ -380,8 +380,6 @@ div.articleRightInner {
 	display: inline-block;
 	margin: 0 0 0 0.5em;
 }
-.tabs {
-}
 .tabs ul li a {
 	display: block;
 	background: url(img/blue-gradient.png) bottom left repeat-x transparent;
@@ -411,8 +409,6 @@ div.articleRightInner {
 	display: inline-block;
 	float: left;
 	margin: 0 1px 0 0px;
-}
-.tabs ul {
 }
 .tabsLeft {
 	line-height: 0;
@@ -499,12 +495,8 @@ span.user {
 	display: inline-block;
 	margin-right: 8px;
 }
-.contentsPanel ul li {
-}
 .contentsPanel ul {
 	padding: 0 0 5px 5px;
-}
-.contentsPanel ul li ul{
 }
 .contentsPanel ul li ul li {
 	padding: 0 0 0 25px;
