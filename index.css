@@ -351,6 +351,7 @@ div.articleRight {
 	font-size: 94%;
 	margin: 0 0 5px 15px;
 	text-align: left;
+	width: 50%;
 }
 div.articleRightInner {
 	border: 1px solid #c8ccd1;
@@ -470,17 +471,18 @@ span.user {
 }
 .contentsPanel {
 	border: 1px solid #a2a9b1;
-	background-color: #f8f9fa;
+	background-color: #f5fffa;
 	padding: 5px;
 	font-size: 95%;
 	position: relative;
 	line-height: 1.7em;
-	width: 280px;
+	width: 50%;
 }
 .contentsHeader {
 	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
+	background-color: #cef2e0;
 }
 .hidePanel, .showPanel {
 	float: right;
