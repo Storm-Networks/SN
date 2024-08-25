@@ -353,7 +353,7 @@ div.articleRight {
 	text-align: left;
 	width: 47%;
 }
-div.articleRightHead {
+div.articleRightInner {
 	border: 1px solid #c8ccd1;
 	padding: 3px;
 	background-color: #cedff2;
@@ -477,7 +477,7 @@ div.articleHeadTitle {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
-div.articleLeft {
+div.contentsPanel {
 	border: 1px solid #a2a9b1;
 	background-color: #f5fffa;
 	padding: 5px;
@@ -486,7 +486,7 @@ div.articleLeft {
 	line-height: 1.7em;
 	width: 47%;
 }
-div.articleLeftHead {
+div.contentsHeader {
 	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
@@ -501,14 +501,14 @@ div.articleLeftHead {
 	color: #0645ad;
 	top: 4px;
 }
-.articleLeft ul li span {
+.contentsPanel ul li span {
 	display: inline-block;
 	margin-right: 8px;
 }
-.articleLeft ul {
+.contentsPanel ul {
 	padding: 0 0 5px 5px;
 }
-.articleLeft ul li ul li {
+.contentsPanel ul li ul li {
 	padding: 0 0 0 25px;
 }
 .showPanel {
@@ -520,7 +520,7 @@ div.articleLeftHead {
 .minimizedPanel .hidePanel {
 	display: none
 }
-.articleLeft.minimizedPanel {
+.contentsPanel.minimizedPanel {
 	width: 130px;
 }
 .minimizedPanel .contentsHeader {
