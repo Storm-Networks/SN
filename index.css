@@ -468,16 +468,16 @@ span.user {
 	background-image: url(img/user-ico.png);
 	padding-left: 15px !important;
 }
-.articleHead {
+div.articleHead {
 	background-color: #f6f6f6;
 	border: 1px solid #a2a9b1;
 	width: 100%;
 }
-.articleHeadTitle {
+div.articleHeadTitle {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.articleLeft {
+div.articleLeft {
 	border: 1px solid #a2a9b1;
 	background-color: #f5fffa;
 	padding: 5px;
@@ -486,7 +486,7 @@ span.user {
 	line-height: 1.7em;
 	width: 47%;
 }
-.articleLeftHead {
+div.articleLeftHead {
 	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
@@ -501,14 +501,14 @@ span.user {
 	color: #0645ad;
 	top: 4px;
 }
-.contentsPanel ul li span {
+.articleLeft ul li span {
 	display: inline-block;
 	margin-right: 8px;
 }
-.contentsPanel ul {
+.articleLeft ul {
 	padding: 0 0 5px 5px;
 }
-.contentsPanel ul li ul li {
+.articleLeft ul li ul li {
 	padding: 0 0 0 25px;
 }
 .showPanel {
@@ -520,7 +520,7 @@ span.user {
 .minimizedPanel .hidePanel {
 	display: none
 }
-.contentsPanel.minimizedPanel {
+.articleLeft.minimizedPanel {
 	width: 130px;
 }
 .minimizedPanel .contentsHeader {
