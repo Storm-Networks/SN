@@ -468,6 +468,15 @@ span.user {
 	background-image: url(img/user-ico.png);
 	padding-left: 15px !important;
 }
+.articleHead {
+	background-color: #f6f6f6;
+	border: 1px solid #a2a9b1;
+	width: 100%;
+}
+.articleHeadTitle {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
 .articleLeft {
 	border: 1px solid #a2a9b1;
 	background-color: #f5fffa;
@@ -603,13 +612,4 @@ span.user {
 	#simpleSearch {
 		display: none;
 	}
-}
-.articleHead {
-	background-color: #f6f6f6;
-	border: 1px solid #a2a9b1;
-	width: 100%;
-}
-.articleHeadTitle {
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
 }
