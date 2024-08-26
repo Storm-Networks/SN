@@ -12,37 +12,24 @@
   function checkPassword() {
    var password = document.getElementById("passwordBox");
    var passwordText = password.value;
-   if(passwordText == "SNdev1234") {
+   if(passwordText == "SNdev2024") {
     return true;
    }
    alert("ACCSES DENIED");
    return false;
    }
  </script>
-  
-<link rel="stylesheet" type="text/css" href="dev.css">
+<link rel="stylesheet" type="text/css" href="class-1.css">
 </head>
 <body>
  <header>
-   <p style="font-size: 30pt;">
-     THIS PAGE IS RESTRICTED UNDER CLASS 1 PRIVACY
-   </p>
-   <p>
-     <i>
-       To acsess this page, please enter the password.
-     </i>
-   </p>
+   <p style="font-size: 30pt;">THIS PAGE IS RESTRICTED UNDER CLASS 1 PRIVACY</p>
+   <p><i>To acsess this page, please enter the password.</i></p>
  </header>
-  
- <p>
-   Please enter the password to view this website.
-   <br/>
- </p>
- <p>
-   Password: 
-   <input id="passwordBox" type="password"/></p>
+ <p>Please enter the password to view this page.<br/></p>
+ <p>Password: <input id="passwordBox" type="password"/></p>
   <button>
-    <a href="#" onclick="return checkPassword();">
+    <a href="dev/dev-index.html" onclick="return checkPassword();">
       <p style="font-size: 12pt">
         Enter
       </p>
