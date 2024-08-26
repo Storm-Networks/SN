@@ -340,11 +340,10 @@ a:hover {
 }
 div.articleRight {
 	border: 1px solid #c8ccd1;
+	background-color: #f5faff;
 	padding: 3px;
 	float: right;
-	background-color: #f5faff;
 	font-size: 94%;
-	text-align: center;
 	overflow: hidden;
 	line-height: 1.4em;
 	padding: 3px;
@@ -481,17 +480,23 @@ div.articleHeadTitle {
 div.contentsPanel {
 	border: 1px solid #a2a9b1;
 	background-color: #f5fffa;
-	padding: 5px;
-	font-size: 95%;
+	float: left;
+	padding: 3px;
+	font-size: 94%;
+	overflow: hidden;
 	position: relative;
-	line-height: 1.7em;
+	line-height: 1.4em;
+	text-align: left;
 	width: 48%;
 }
 div.contentsHeader {
 	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
+	padding: 3px;
+	font-size: 94%;
 	background-color: #cef2e0;
+	border: 1px solid #c8ccd1;
 }
 .hidePanel, .showPanel {
 	float: right;
