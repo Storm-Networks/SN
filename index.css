@@ -481,9 +481,8 @@ div.contentsPanel {
 	border: 1px solid #a2a9b1;
 	background-color: #f5fffa;
 	float: left;
-	padding: 3px;
+	padding: 5px;
 	font-size: 94%;
-	overflow: hidden;
 	position: relative;
 	line-height: 1.4em;
 	text-align: left;
