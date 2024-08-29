@@ -295,6 +295,8 @@ body {
 ul {
 	margin: 0;
 	padding: 0.3em 0 0 0;
+	list-style: none;
+	list-style-image: none;
 }
 h1 {
 	line-height: 1.3;
