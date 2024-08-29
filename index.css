@@ -422,7 +422,7 @@ div.articleRightInner {
 	overflow: hidden;
 	border: solid 1px #aaa;
 	background: #F6F6F6;
-	background: -moz-linear-gradient(top, #F6F6F6 0%, #FFFFFF 100%);
+	background: -moz-linear-gradient(top, #F6F6F5 0%, #FFFFFF 100%);
 	background: -webkit-linear-gradient(top, #F6F6F6 0%, #FFFFFF 100%);
 	background: linear-gradient(to bottom, #F6F6F6 0%, #FFFFFF 100%);
 }
