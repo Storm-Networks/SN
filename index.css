@@ -359,6 +359,9 @@ div.articleRightInner {
 	font-size: 94%;
 	text-align: center;
 }
+ul.articleRight {
+	list-style-type: disc;
+}
 .logo {
 	margin-bottom: 20px;
 }

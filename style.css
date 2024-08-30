@@ -360,6 +360,9 @@ div.articleRightInner {
 	text-align: center;
 	overflow: hidden;
 }
+ul.articleRight {
+	list-style-type: disc;
+}
 .logo {
 	margin-bottom: 20px;
 }
