@@ -1,0 +1,1 @@
+This is here simply so that the img folder can exist. Delete it after you add an image.
