@@ -605,3 +605,6 @@ span.user {
 		display: none;
 	}
 }
+.mainsection {
+	list-style-type: disc;
+}
